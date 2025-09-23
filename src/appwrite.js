@@ -33,3 +33,15 @@ export const updateSearchCount = async (searchTerm, movieId) => {
         console.log("Error fetching document:", error);
     }
 }
+
+export const getTrendingMovies = async () => {
+    try {
+        const result = await database.listDocuments(DATABASE_ID, TABLE_ID, [
+            Query.limit(5),
+            Query.orderDesc("count")
+        ])
+        return result.documents;
+    } catch (error) {
+        console.log("Error fetching trending movies:", error);
+    }
+}
