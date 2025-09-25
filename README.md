@@ -1,12 +1,50 @@
-# React + Vite
+# Movies App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada con **React + Vite**, que permite buscar y explorar películas utilizando la API de **The Movie Database (TMDb)**.  
 
-Currently, two official plugins are available:
+Proyecto desplegado en: [https://movies-app-67b26.web.app/](https://movies-app-67b26.web.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Descripción
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Movies App es una aplicación que permite a los usuarios:
+
+- Buscar películas por nombre y ver resultados relevantes.  
+- Explorar detalles de cada película: título, descripción, fecha de estreno y calificación.  
+- Interfaz interactiva con filtros de búsqueda y carga dinámica de resultados.  
+- Gestión de estado global para mantener resultados y favoritos (si se desea extender).  
+
+---
+
+## Características principales
+
+- Búsqueda de películas en tiempo real usando TMDb API.  
+- Visualización de resultados con tarjetas dinámicas.  
+- Feedback visual con **spinners** durante la carga de datos.  
+- Interfaz moderna y responsiva.  
+
+---
+
+## Tecnologías utilizadas
+
+| Componente      | Tecnología / Librería               |
+|-----------------|-----------------------------------|
+| Framework       | React + Vite                       |                 
+| Data Fetching   | Fetch API                          |
+| UI              | TailwindCSS                        |
+| Hosting         | Firebase Hosting                   |
+
+---
+
+
+---
+
+## Autor
+
+Proyecto desarrollado por **Emilio Zdenko Abarca Cruz**  
+
+[GitHub](https://github.com/zdenc0de) | [LinkedIn](https://www.linkedin.com/in/emilio-zdenko-ab/)  
+
+
+
